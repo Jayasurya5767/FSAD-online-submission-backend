@@ -13,7 +13,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**") // Allow all endpoints
-                        .allowedOrigins("https://fsad-frontend-deployment.up.railway.app") // Your specific frontend URL
+                        .allowedOrigins("https://fsad-online-submission-frontend-production.up.railway.app") // Your specific frontend URL
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*")
                         .allowCredentials(true);

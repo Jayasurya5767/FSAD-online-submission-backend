@@ -73,7 +73,7 @@ public class SecurityConfig {
         configuration.setAllowedOrigins(List.of(
             "http://localhost:5173", 
             "http://localhost:3000",
-            "https://fsad-frontend-deployment.up.railway.app"
+            "https://fsad-online-submission-frontend-production.up.railway.app"
         ));
         
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
